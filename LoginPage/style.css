@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1168092599/photo/sunshine-clouds-sky-during-morning-background-blue-white-pastel-heaven-soft-focus-lens-flare.jpg?s=612x612&w=0&k=20&c=vKXzeYIyTxOEMd9XYkGZaeRSR0f1h2F-zeWOm49BVfc=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-container {
+    margin-top: 10px;
+    padding: 20px 40px 20px 40px;
+    width: 20vw;
+    border-radius: 30px;
+    background-image: url("https://media.istockphoto.com/id/1168092599/photo/sunshine-clouds-sky-during-morning-background-blue-white-pastel-heaven-soft-focus-lens-flare.jpg?s=612x612&w=0&k=20&c=vKXzeYIyTxOEMd9XYkGZaeRSR0f1h2F-zeWOm49BVfc=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.login-email {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #240628cf;
+}
+
+#email {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: rgba(233, 241, 243, 0.865);
+    color: #000;
+    font-weight: bold;
+}
+
+#email:hover{
+    border: 2px solid #333333;
+}
+
+.login-password {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #240628cf;
+}
+
+#password {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: rgba(233, 241, 243, 0.865);
+    color: #000;
+    font-weight: bold;
+}
+
+#password:hover{
+    border: 2px solid #333333;
+}
+
+.forgot-pass {
+    text-align: right;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.forgot-pass:hover {
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    background-color: #F2C0C0;
+    font-weight: bold;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 2px solid #333333;
+    background-color: #15ebe782;
+}
+
+.para {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#google {
+    width: 30px;
+    padding: 3px 8px 3px 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #db4437;
+}
+
+#facebook {
+    width: 30px;
+    padding: 3px 8px 3px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #3b5998;
+}
+
+#google:hover {
+    cursor: pointer;
+}
+
+#facebook:hover {
+    cursor: pointer;
+}
+
+.sign-up {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+    font-size: 20px;
+}
+
+
